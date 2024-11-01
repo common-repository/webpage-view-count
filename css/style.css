@@ -1,0 +1,29 @@
+/* frontend css */
+.post-views {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.entry-meta, .entry-footer {
+    border-top: 1px solid #d6e6ea;
+    border-bottom: 1px solid #d6e6ea;
+    padding: 8px 0;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+.post-views.entry-meta>span {
+    margin-right: 0 !important;
+   
+}
+.entry-meta span, .entry-footer span {
+    padding-right: 25px;
+}
+
+#use_exclude{
+	height: 23px !important;
+	width: 25px !important;
+}
+
+#use_exclude:checked::before{
+	height: 23px !important;
+	width: 25px !important;	
+}
